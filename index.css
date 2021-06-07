@@ -28,8 +28,8 @@ ul { list-style-type: none; margin:0; padding:0; }
 .nav1 .container ul li a:hover { text-decoration: underline; }
 
 /* header1 */
-.header1 .container { background-image: url("https://cdn.pixabay.com/photo/2018/05/26/21/21/blue-berries-3432295_960_720.jpg"); background-position: center; /* box-sizing: border-box; */ }
-
+/* .header1 .container { background-image: url("https://cdn.pixabay.com/photo/2018/05/26/21/21/blue-berries-3432295_960_720.jpg"); background-position: center; box-sizing: border-box; } */
+.header1 .container { background-image: url("./blue-berries-3432295_960_720.webp"); background-position: center; /* box-sizing: border-box; */ }
 /* nav2 */
 .nav2 .container { background-color: darkblue; /* box-sizing: border-box; */ }
 .nav2 .container ul li { width:20%; /* box-sizing: border-box; */ text-align: center; float: left; }
