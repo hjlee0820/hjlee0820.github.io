@@ -1,32 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko-KR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    ul {
-      padding: 0px;
-      list-style: none;
-    }
-    ul > li {
-      float: left;
-      padding: 5px;
-      background-color: orange;
-      color: white;
-    }
-    ul > li:hover {
-      background-color: orangered;
-    }
-  </style>
+  <title>회원가입</title>
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-  <ul>
-    <li>menu1</li>
-    <li>menu2</li>
-    <li>menu3</li>
-    <li>menu4</li>
-  </ul>
+  <nav class="nav1">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="#">로그인</a></li>
+        <li>|</li>
+        <li><a href="#">회원가입</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="header1">
+    <div class="container">
+      <!-- <img src="blue-berries-3432295_960_720.webp" alt=""> -->
+    </div>
+  </header>
+  <nav class="nav2">
+    <div class="container">
+      <ul class="clearfix">
+        <li><a href="#">웹표준</a></li>
+        <li><a href="#">자바</a></li>
+        <li><a href="#">안드로이드</a></li>
+        <li><a href="#">데이터베이스</a></li>
+        <li><a href="#">스프링</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main1">
+    <div class="container clearfix">
+      <aside class="aside1">
+
+      </aside>
+      <section class="section1">
+        <h3 id="section_title">회원가입</h3>
+        <form action="" class="form1">
+          <ul>
+            <li><label for="id">아이디</label></li>
+            <li><input type="text" name="id" id="id" class="text_input" maxlength="20" placeholder="최대20자"></li>
+            <li><label for="pswd1">비밀번호</label></li>
+            <li><input type="password" name="pswd1" id="pswd1" class="text_input" maxlength="20" placeholder="최대20자">
+            </li>
+            <li><label for="pswd2">비밀번호확인</label></li>
+            <li><input type="password" name="pswd2" id="pswd2" class="text_input" maxlength="20" placeholder="최대20자">
+            </li>
+            <li><label for="tel">전화번호</label></li>
+            <li><input type="tel" name="tel" id="tel" class="text_input" maxlength="11" placeholder="'-'는 빼고 입력해주세요">
+            </li>
+            <li><label for="nickname">별칭</label></li>
+            <li><input type="text" name="nickname" id="nickname" class="text_input" maxlength="8" placeholder="최대 8자">
+            </li>
+            <li><label for="area">지역</label></li>
+            <li>
+              <select name="area" id="area">
+                <option>== 선택 ==</option>
+                <option value="seoul">서울</option>
+                <option value="pusan">부산</option>
+                <option value="daegu">대구</option>
+                <option value="daejeon">대전</option>
+                <option value="ulsan">울산</option>
+              </select>
+            </li>
+            <li><label for="gender">성별</label></li>
+            <li class="different_font">
+              <input type="radio" name="gender" id="male" value="male">
+              <label for="male">남자</label>
+              <input type="radio" name="gender" id="female" value="female">
+              <label for="female">여자</label>
+            </li>
+            <li><label for="hobby">취미</label></li>
+            <li class="different_font">
+              <input type="checkbox" name="hobby" id="hobby1" value="readbook">
+              <label for="hobby1">독서</label>
+              <input type="checkbox" name="hobby" id="hobby2" value="listenmusic">
+              <label for="hobby2">음악감상</label>
+              <input type="checkbox" name="hobby" id="hobby3" value="exercise">
+              <label for="hobby3">운동</label>
+              <input type="checkbox" name="hobby" id="hobby4" value="game" checked>
+              <label for="hobby4">게임</label>
+            </li>
+            <li><label for="b_day">생년월일</label></li>
+            <li><input type="date" name="b_day" id="b_day" class="text_input"></li>
+            <li><button type="submit" id="submit_button">회원가입</button></li>
+          </ul>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="footer1">
+    <div class="container">
+      Copyright by Gildong Hong. All Rights Reserved.
+    </div>
+  </footer>
 </body>
+
 </html>
