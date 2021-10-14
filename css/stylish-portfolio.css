@@ -175,6 +175,45 @@ hr.small {
     padding: 50px 0;
 }
 
+.lead {
+
+}
+
+
+/* Education */
+#education {
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+.education h2 {
+    text-align: center;
+}
+
+.education-block h3 {
+    float: left;
+    margin-top: 0;
+}
+
+.education-date {
+    float: right;
+    margin-top: 3px;
+    color: #999;
+}
+
+.education h4 {
+    clear: both;
+}
+
+.education-block {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    text-align: left;
+}
+
+
 /* Services */
 
 .services {
@@ -196,6 +235,7 @@ hr.small {
     width: 70px;
 }
 
+
 /* Callout */
 
 .callout {
@@ -210,6 +250,7 @@ hr.small {
     -o-background-size: cover;
 }
 
+
 /* Portfolio */
 
 .portfolio {
@@ -220,19 +261,64 @@ hr.small {
     margin-bottom: 30px;
 }
 
-button[data-toggle="modal"] {
-    padding: 0;
-    outline: 0;
-    border: 0px;
-    border-radius: 0px;
-}
-
 .img-portfolio {
     margin: 0 auto;
+    cursor: pointer;
+    border: 1px solid #00000066;
 }
 
 .img-portfolio:hover {
     opacity: 0.8;
+}
+
+.col-md-6.desc {
+    text-align: left;
+}
+
+.desc-title {
+    margin-top: 0;
+}
+
+.portfolio-item.desc .badge {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.portfolio-item.desc p {
+    margin-bottom: 3px;
+}
+
+.pitem .btns {
+    margin-top: 5px;
+}
+
+.pitem .tech-stack {
+    margin: 0 auto 30px auto;
+}
+
+.portfolio-item.desc .desc-highlight {
+    color: #b09869;
+}
+
+/* Portfolio-tech-stack */
+.pitem .tech-stack ul {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    list-style: none;
+}
+
+.pitem .tech-stack li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
 }
 
 /* Portfolio-Modal */
@@ -242,21 +328,29 @@ button[data-toggle="modal"] {
 
 .responsive-video-container {
     height: 90%; width:90%;
-    margin: 5% auto;
+    margin: 10px auto;
 }
 .responsive-video-container iframe{
     height: 100%; width: 100%;
-    /* margin: auto auto; */
 }
 
-/* .responsive-video-container,
-.responsive-video-container iframe{
+/* Portfolio-item1 */
+.pitem1 .desc-title::before {
+    content: "01.";
+    color: #B09869;
+    font-size: 24px;
+    margin-right: 10px;
+}
 
-} */
+.pitem2 .desc-title::before {
+    content: "02.";
+    color: #B09869;
+    font-size: 24px;
+    margin-right: 10px;
+}
 
 
 /* Call to Action */
-
 .call-to-action {
     padding: 50px 0;
 }
@@ -265,8 +359,8 @@ button[data-toggle="modal"] {
     margin: 10px;
 }
 
-/* Map */
 
+/* Map */
 .map {
     height: 500px;
 }
@@ -277,10 +371,12 @@ button[data-toggle="modal"] {
     }
 }
 
+
 /*disable custom maps scrolling behaviour*/
 .scrolloff {
     pointer-events: none;
 }
+
 
 /* Footer */
 

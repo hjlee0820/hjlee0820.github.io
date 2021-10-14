@@ -43,32 +43,170 @@
 
 
           
-          <div class="col-md-12">
+          <!-- <div class="col-md-12">
             <div class="portfolio-item">
               <h3>애니모어</h3>
-                
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">
-                  <img class="img-portfolio img-responsive" src="img/custom/ani-main.jpg">
-                </button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">
+                <img class="img-portfolio img-responsive" src="img/custom/ani-main.jpg">
+              </button>
+ 
+              <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
 
-                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                      {% include video id="MJhDzc4VFGg" provider="youtube" %}
-                    </div>
                   </div>
                 </div>
+              </div>
+              <p><span class="desc-highlight">Spring Framework</span> 기반의 웹페이지를 만들었습니다.</p>
+              <p><span class="desc-highlight">Spring JDBC</span>를 통해 <span class="desc-highlight">oracle DB</span>와 연동하였습니다.</p>
+              <p>부분적으로 <span class="desc-highlight">Bootstrap4</span>를 사용하였고,</p>
+              <p><span class="desc-highlight">AJAX</span>와 <span class="desc-highlight">RestAPI</span>도 활용하였습니다.</p>
+              <div class="btns">
+                <a href="https://www.youtube.com/watch?v=MJhDzc4VFGg" class="btn btn-dark">Demo</a>
+                <a href="https://github.com/hjlee0820/animore" class="btn btn-dark">Repo</a>
+                <a href="https://github.com/hjlee0820/animore/blob/main/document/animore.pdf" class="btn btn-dark">PDF</a>
+              </div>
+            </div>
+          </div> -->
+          
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus porro a illum, cupiditate corporis vitae molestiae doloribus iste expedita, excepturi tenetur eaque eum, sed praesentium voluptas soluta iure accusamus maxime.</p>
+          <!-- Portfolio #1 -->
+          <div class="pitem pitem1">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <img class="img-portfolio img-responsive" src="img/custom/ani-main.jpg" data-toggle="modal" data-target=".pitem1-modal">
+              </div>
+            </div>
+            <div class="col-md-6 desc">
+              <div class="portfolio-item desc">
+                <h3 class="desc-title">애니모어</h3>
+                <p class="badge">Spring MVC 기반 웹사이트</p>
+                <p><span class="desc-highlight">Spring Framework</span> 기반의 웹페이지를 만들었습니다.</p>
+                <p><span class="desc-highlight">Spring JDBC</span>를 통해 <span class="desc-highlight">oracle DB</span>와 연동하였습니다.</p>
+                <p>부분적으로 <span class="desc-highlight">Bootstrap4</span>를 사용하였고, <span class="desc-highlight">AJAX</span>와 <span class="desc-highlight">RestAPI</span>도 활용하였습니다.</p>
+                <p>회원가입, 게시판 댓글, 공공API 활용, 업체목록AJAX, 지도,</p>
+                <p>마이페이지 UI 및 일부 메뉴를 담당하였습니다. </p>
                 <div class="btns">
-                  <a href="https://www.youtube.com/watch?v=MJhDzc4VFGg" class="btn btn-dark">Demo</a>
+                  <span class="btn btn-dark" data-toggle="modal" data-target=".pitem1-modal">Demo</span>
                   <a href="https://github.com/hjlee0820/animore" class="btn btn-dark">Repo</a>
-                  <a href="http://" class="btn btn-dark">PDF</a>
+                  <a href="https://github.com/hjlee0820/animore/blob/main/document/animore.pdf" class="btn btn-dark">PDF</a>
                 </div>
-
+              </div>
+            </div>
+            <div class="col-md-12 tech-stack">
+              <div class="portfolio-item">
+                <h4>소요기술</h4>
+                <ul>
+                  <li>JAVA11</li>
+                  <li>SQL</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>STS4</li>
+                  <li>VS Code</li>
+                  <li>Spring Framework / Spring Boot</li>
+                  <li>Bootstrap</li>
+                  <li>Lombok</li>
+                  <li>Font Awesome</li>
+                  <li>Mail</li>
+                  <li>Gradle</li>
+                  <li>SQL Developer</li>
+                  <li>Oracle 18c XE</li>
+                  <li>Spring JDBC</li>
+                  <li>Thymeleaf3</li>
+                  <li>AJAX</li>
+                  <li>RestAPI</li>
+                  <li>XML</li>
+                  <li>JSON</li>
+                  <li>Jackson</li>
+                  <li>공공API</li>
+                  <li>카카오맵API</li>
+                  <li>PostMan</li>
+                  <li>JUnit Framework5</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Modal #1 -->
+          <div class="modal fade pitem1-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                {% include video id="h1z3Ak4hcmc" provider="youtube" %}
+              </div>
             </div>
           </div>
 
+          <!-- Portfolio #2 -->
+          <!-- <div class="pitem pitem2">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <img class="img-portfolio img-responsive" src="img/custom/ani-main.jpg" data-toggle="modal" data-target=".pitem2-modal">
+              </div>
+            </div>
+            <div class="col-md-6 desc">
+              <div class="portfolio-item desc">
+                <h3 class="desc-title">프로젝트2</h3>
+                <p class="badge">Spring MVC 기반 웹사이트</p>
+                <p><span class="desc-highlight">Spring Framework</span> 기반의 웹페이지를 만들었습니다.</p>
+                <p><span class="desc-highlight">Spring JDBC</span>를 통해 <span class="desc-highlight">oracle DB</span>와 연동하였습니다.</p>
+                <p>부분적으로 <span class="desc-highlight">Bootstrap4</span>를 사용하였고, <span class="desc-highlight">AJAX</span>와 <span class="desc-highlight">RestAPI</span>도 활용하였습니다.</p>
+                <p>회원가입, 게시판 댓글, 공공API 활용, 업체목록AJAX, 지도,</p>
+                <p>마이페이지 UI 및 일부 메뉴를 담당하였습니다. </p>
+                <div class="btns">
+                  <span class="btn btn-dark" data-toggle="modal" data-target=".pitem2-modal">Demo</span>
+                  <a href="https://github.com/hjlee0820/animore" class="btn btn-dark">Repo</a>
+                  <a href="https://github.com/hjlee0820/animore/blob/main/document/animore.pdf" class="btn btn-dark">PDF</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 tech-stack">
+              <div class="portfolio-item">
+                <h4>소요기술</h4>
+                <ul>
+                  <li>JAVA11</li>
+                  <li>SQL</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>STS4</li>
+                  <li>VS Code</li>
+                  <li>Spring Framework / Spring Boot</li>
+                  <li>Bootstrap</li>
+                  <li>Lombok</li>
+                  <li>Font Awesome</li>
+                  <li>Mail</li>
+                  <li>Gradle</li>
+                  <li>SQL Developer</li>
+                  <li>Oracle 18c XE</li>
+                  <li>Spring JDBC</li>
+                  <li>Thymeleaf3</li>
+                  <li>AJAX</li>
+                  <li>RestAPI</li>
+                  <li>XML</li>
+                  <li>JSON</li>
+                  <li>Jackson</li>
+                  <li>공공API</li>
+                  <li>카카오맵API</li>
+                  <li>PostMan</li>
+                  <li>JUnit Framework5</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          <!-- Modal #2 -->
+          <!-- <div class="modal fade pitem2-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                
+                모달2
+              </div>
+            </div>
+          </div> -->
+          
         </div>
         <!-- /.row (nested) -->
         <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
