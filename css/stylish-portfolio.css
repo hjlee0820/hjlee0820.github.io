@@ -334,21 +334,13 @@ hr.small {
     height: 100%; width: 100%;
 }
 
-/* Portfolio-item1 */
-.pitem1 .desc-title::before {
-    content: "01.";
+/* Portfolio-item */
+.pitem .desc-title-num {
+    display: inline-block;
     color: #B09869;
     font-size: 24px;
     margin-right: 10px;
 }
-
-.pitem2 .desc-title::before {
-    content: "02.";
-    color: #B09869;
-    font-size: 24px;
-    margin-right: 10px;
-}
-
 
 /* Call to Action */
 .call-to-action {
