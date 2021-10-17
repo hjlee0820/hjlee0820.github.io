@@ -322,17 +322,32 @@ hr.small {
 }
 
 /* Portfolio-Modal */
-.modal-content{
+/* .modal-content{
     height: 75vh;
 }
-
 .responsive-video-container {
     height: 90%; width:90%;
     margin: 10px auto;
 }
 .responsive-video-container iframe{
     height: 100%; width: 100%;
+} */
+
+/* .modal-content{
+    padding: 0;
+    border-radius: 0;
+} */
+
+.responsive-video-container iframe{
+    height: 60vh; width: 75vw;
+    max-width: 900px;
 }
+@media(max-width:768px) {
+    .responsive-video-container iframe{
+        max-width: 600px;
+    }
+}
+
 
 /* Portfolio-item */
 .pitem .desc-title-num {
